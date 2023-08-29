@@ -1,13 +1,126 @@
-body {
+*
+{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
+html,body
+{
+  height: 40px;
+  background-color: black;
+}
+.home
+{
+  background: url('./sunset.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.location
+{
+  margin-top: 15px;
+}
+.home input
+{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+  margin-left: 130px;
+}
+::placeholder {
+  color: #f8f8f8;
+}
+i
+{
+  margin-left: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img
+{
+  width: 100%;
+  height: 100%;
+}
+.data-container
+{
+  margin-bottom: 341px;
+  margin-left: 69px;
+  display: flex;
+  color: white;
+  margin-top: 211px;
+}
+.city
+{
+  font-size: 28px;
+}
+.degree
+{
+  margin-top: 13px;
+  font-size: 76px;
+}
+.icon
+{
+  margin-top: 27px;
+}
+.f
+{
+  font-size: 76px;
+  margin-top: 13px
+}
+.about-weather
+{
+  margin-left: 139px;
+  font-size: 39px;
+  display: flex;
+  flex-direction: column-reverse;
+  transform: rotate(-91deg);
+  margin-top: 25px;
+}
+.bottom
+{
+  margin-top: -100px;
+  display: flex;
+  margin-left: 148px;
+  margin-bottom: 36px;
+  color: white;
+  background-color: rgba(255,255,255, 0.2);
+  width:fit-content;
+  height:500px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+.humidity
+{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+button
+{
+  background-color: #5c6a8d;
+  border: 0;
+  margin-left: 20px;
+  width: 0;
+  height: 0;
 }
